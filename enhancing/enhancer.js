@@ -5,7 +5,7 @@ module.exports = {
   get,
 };
 
-function succeed(item) {
+function success(item) {
   if (item.enhancement < 20) {
     const newItem = {
       name: item.name,
